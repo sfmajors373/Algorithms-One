@@ -14,6 +14,6 @@ def permutation(stuff):
                 listList.append([current] + p)
         return listList
 
-test = list('123')
+test = list('0123')
 for p in permutation(test):
     print(p)
